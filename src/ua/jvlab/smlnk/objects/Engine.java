@@ -6,6 +6,8 @@ public class Engine {
 
     private double millAge; // пробег двигателя;
     private boolean started; // двигатель вкл./выкл.;
+
+    // dz
     private double vEng; // объем двигателя;
 
     /*геттеры и сеттеры*/
@@ -68,6 +70,5 @@ public class Engine {
             return millAge = millAge * 0.15;
         }
         return 0;
-
     }
 }
